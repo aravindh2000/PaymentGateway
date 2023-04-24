@@ -66,7 +66,6 @@ public class AuthenticateCard {
 
     if (currYear != expirationYear) {
       isValidExpirationDate = Integer.compare(currYear, expirationYear) == -1;
-
     } else if (currMonth != expirationMonth) {
       isValidExpirationDate = Integer.compare(currMonth, expirationMonth) == -1;
     } else if (currDay != expirationDay) {
